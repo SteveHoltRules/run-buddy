@@ -1,0 +1,31 @@
+h1 {
+  font-size: 25px;
+  color: rgb(124, 10, 29);
+} 
+
+body {
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  padding: 20px 35 px;
+  background-color: #39a6b2;
+}
+
+header h1{
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: #fcd138;
+}
+
+header nav {
+  float: right;
+  margin: 7px 0;
+}
