@@ -79,17 +79,19 @@ section {
   height: 600px;
   background-size: cover;
   background-position: bottom;
+  position: relative;
 }
 
 
 /* Hero Form Style */
 .hero-form {
+  border: 1px double #024e76;
   background-color: #fce138;
   padding: 20px;
   width: 500px;
   color: #024e76;
   position: absolute;
-  bottom: 400px;
+  bottom: 120px;
   right: 140px;
 }
 /* Hero Form Style End */
@@ -138,24 +140,12 @@ section {
   margin: 0 auto;
 }
 
-.section-title {
-  display: inline-block;
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
+.steps {
+  text-align: center;
+  background: #fcd138;
 }
 
-.primary-border {
-  background: #fce138;
-}
-
-.secondary-border{
-  border-color: #39a6b2;
-}
-
-.steps div{
+.steps div {
   margin-bottom: 80px;
 }
 
@@ -178,3 +168,21 @@ section {
 .steps span {
   font-size: 38px;
 }
+
+.section-title {
+  display: inline-block;
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border{
+  border-color: #39a6b2;
+}
+
