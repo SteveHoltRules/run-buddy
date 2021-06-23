@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 25px;
-} 
-
 body {
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
@@ -203,12 +199,9 @@ section {
   float: left;
 }
 
-.trainer-2 img {
-  width: 35%;
-  float: right;
-}
 .trainer-bio {
   padding: 35px;
+  /* This float position is the position of the text within the box. Right will push teh text on teh right side of the box, and left left side of teh box. The reason we put left as the float is because the img also pushes the tex around the box.*/
   float: left;
   width: 65%;
 }
