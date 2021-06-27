@@ -11,4 +11,4 @@ A website that offers fitness training services.
 https://SteveHoltRules.github.io/RunBuddy/
 
 ## Contribution
-Made with ❤️ by Matt Luna
+Made with ❤️ by Matt Luna in 2021
