@@ -32,8 +32,10 @@ header a {
 }
 
 header nav {
-  float: right;
-  margin: 7px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li {
@@ -43,7 +45,8 @@ header nav ul li {
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
+
 }
 
 footer {
@@ -126,6 +129,26 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 }
+
+.hero-cta {
+  width: 40%;
+  display: flex;
+  justify-content: left;
+}
+
+.hero-cta h2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.hero-cta p {
+  display: flex;
+  justify-content: left;
+  margin: auto;
+  align-items: center;
+}
+
 /* Hero Style End */
 
 .intro {
@@ -264,10 +287,11 @@ section {
 }
 
 .contact-info p, .contact-info address {
-  margin: 20px 0;
+  display: flex;
   line-height: 1.5;
   font-size: 20px;
   font-style: normal;
+  justify-content: right;
 }
 
 .contact-info a {
